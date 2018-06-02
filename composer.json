@@ -1,0 +1,12 @@
+{
+    "name": "botnyx/tm-oamw",
+    "autoload": {
+        "psr-4" : {
+            "botnyx\\tmoamw\\" : "src"
+        }
+    },
+    "require": {
+      "php": ">=7.0",
+      "guzzlehttp/guzzle": "^6.2"
+    }
+}
