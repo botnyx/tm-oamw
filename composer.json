@@ -2,7 +2,7 @@
     "name": "botnyx/tm-oamw",
     "licence": "MIT",
     "require": {
-      "php": ">=7.0",
+      "php": "^5.6 || ^7.0",
       "guzzlehttp/guzzle": "^6.2"
     },
     "autoload": {
