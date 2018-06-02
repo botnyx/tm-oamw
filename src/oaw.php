@@ -12,7 +12,7 @@ use Slim\Http\Response;
 //https://api.mysite.com/authorize?response_type=code&client_id=TestClient&redirect_uri=https://myredirecturi.com/cb
 
 
-class oauthmiddleware {
+class oamw {
     
 	var $server; 		// http://idp.trustmaster.nl
 	var $authorize_uri;	// /authorize

@@ -1,12 +1,13 @@
 {
     "name": "botnyx/tm-oamw",
-    "autoload": {
-        "psr-4" : {
-            "botnyx\\tmoamw\\" : "src"
-        }
-    },
+	"license": "MIT",
     "require": {
-      "php": ">=7.0",
-      "guzzlehttp/guzzle": "^6.2"
+        "php": "^5.6 || ^7.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "botnyx\\tmoamw\\": "src"
+        }
     }
 }
